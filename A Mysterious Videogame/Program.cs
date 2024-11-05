@@ -380,7 +380,7 @@ internal class Program
         }
     }
 
-    static async Task Type(string msg, int delay = 1)
+    static async Task Type(string msg, int delay = 50)
     {
         foreach (char c in msg)
         {
